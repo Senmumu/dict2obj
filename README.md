@@ -5,11 +5,11 @@ can access json with easier way "dot",I'm sure this little tool can save your li
 
 # Install
 ```shell
-$pip install dict2obj
+$pip install dict2obj -U
 ```
 # Usage
 ```python
->>> from dict2obj import dict2obj
+>>>from dict2obj import dict2obj
 >>>a={"sen":1}
 >>>b=dict2obj.Dict2Obj(a)
 >>>b.sen
