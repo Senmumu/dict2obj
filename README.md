@@ -9,9 +9,9 @@ $pip install dict2obj -U
 ```
 # Usage
 ```python
->>>from dict2obj import dict2obj
+>>>from dict2obj import Dict2Obj
 >>>a={"sen":1}
->>>b=dict2obj.Dict2Obj(a)
+>>>b=Dict2Obj(a)
 >>>b.sen
 1
 ```
