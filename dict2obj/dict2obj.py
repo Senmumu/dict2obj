@@ -18,7 +18,8 @@ def revert(obj):
 
 
 def revert_container(obj_container: Container):
-    return dict([key, revert(value)] for key, value in obj_container.__dict__.items())
+    return dict([key, revert(value)]
+                for key, value in obj_container.__dict__.items())
 
 
 def revert_dict(obj_dict: dict):
